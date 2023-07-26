@@ -2,6 +2,11 @@
 
 Configure custom api(action and retrun) for vite dev server
 
+## Install
+```shell
+pnpm add vite-plugin-dev-server-api -D
+```
+
 ## Use
 
 ```ts
