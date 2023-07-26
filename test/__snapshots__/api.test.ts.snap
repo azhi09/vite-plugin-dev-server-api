@@ -1,0 +1,20 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`api > api to apiMap 1`] = `
+{
+  "/api/test/function": {
+    "code": [Function],
+    "type": "function",
+  },
+  "/api/test/object": {
+    "code": {
+      "data": "object",
+    },
+    "type": "object",
+  },
+  "api/test/promiseFunction": {
+    "code": [Function],
+    "type": "function",
+  },
+}
+`;

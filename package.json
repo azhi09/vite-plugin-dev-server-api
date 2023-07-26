@@ -1,0 +1,38 @@
+{
+  "name": "vite-plugin-dev-server-api",
+  "version": "0.0.1",
+  "description": "Configure custom api(actions and retruns) for the vite dev server ",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/types.js",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "require": "./dist/index.js",
+      "import": "./dist/index.mjs"
+    }
+  },
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch src",
+    "example:dev": "pnpm -C examples/vite-vue run dev",
+    "test": "vitest"
+  },
+  "author": "azhi09",
+  "license": "MIT",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.60.1",
+    "@typescript-eslint/parser": "^5.61.0",
+    "eslint": "^8.45.0",
+    "tsup": "^7.1.0",
+    "typescript": "^5.1.6",
+    "vitest": "^0.33.0"
+  },
+  "dependencies": {
+    "@types/debug": "^4.1.8",
+    "debug": "^4.3.4",
+    "fast-glob": "^3.3.0",
+    "rimraf": "^5.0.1",
+    "vite": "^4.4.0"
+  }
+}
