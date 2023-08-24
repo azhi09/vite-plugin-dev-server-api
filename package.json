@@ -1,6 +1,6 @@
 {
   "name": "vite-plugin-dev-server-api",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Configure custom api(actions and retruns) for the vite dev server ",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
